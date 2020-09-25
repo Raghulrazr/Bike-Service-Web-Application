@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer Registration</title>
+<style type="text/css">
+form {
+	margin: 0 auto;
+	width: 400px;
+}
+
+#table1 {
+	border-collapse: separate;
+	border: 3px solid black;
+	background-color: #F8FC90;
+	border-spacing: 2rem;
+}
+body {
+  background-image: url('bike7.jpg');
+}
+#htable
+{
+   margin-left:auto; 
+   margin-right:auto;
+}
+</style>
+<script>
+function check()
+{
+	var bc= document.getElementById("bike_company").value;
+	var a= document.getElementById("pass1").value;
+	var b= document.getElementById("pass2").value;
+	var n= document.getElementById("name").value;
+	var r= document.getElementById("bike_number").value;
+	var p= document.getElementById("phone_number").value;
+	var e= document.getElementById("e_mail").value;
+	if(bc=="")
+	{
+	alert("please select Bike company");
+	return false;
+	}
+	else if(a=="" || b=="")
+	{
+	alert("please enter password");
+	return false;
+	}
+	else if(a!=b)
+	{
+	alert("Confirm password is miss match");
+	return false;
+	}
+	else if(n=="")
+	{
+	alert("please enter Name");
+	return false;
+	}
+	else if(r=="")
+	{
+	alert("please enter Bike Number");
+	return false;
+	}
+	else if(p=="" && p.length!=10)
+	{
+	alert("please enter valid Phone Number");
+	return false;
+	}
+	else if(e=="")
+	{
+	alert("please enter Email");
+	return false;
+	}
+	else 
+		return true;
+}
+</script>
+</head>
+<body>
+	<table id="htable" >
+		<tr>
+			<td><a href="home.html" ><img src="slogan.jpg" width="200" height="100"></a></td>
+		</tr>
+	</table>
+	<h1 align=center style="background-color: steelblue;" >
+		<font size="7" ><font color="black"><strong> BIKE SERVICE CENTERS</strong></font></font>
+	</h1>
+	<form onsubmit="return check()" action="Servlet" method="post">
+		<table id="table1">
+			<tr>
+				<td colspan="2"><h1>Customer Registration</h1></td>
+			</tr>
+			<tr>
+				<td>Bike Company <font color="red">*</font></td>
+				<td><select name="bike_company" id="bike_company">
+						<option value="">--Please choose an option--</option>
+						<option value="Hero">Hero</option>
+						<option value="Bajaj">Bajaj</option>
+						<option value="TVS">TVS</option>
+						<option value="KTM">KTM</option>
+						<option value="Yamaha">Yamaha</option>
+						<option value="Royal Enfield">Royal Enfield</option>
+						<option value="Suzuki">Suzuki</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Bike Number <font color="red">*</font></td>
+				<td><input type="text" id="bike_number" name="bike_number"></td>
+			</tr>
+			<tr>
+				<td>Customer Name <font color="red">*</font></td>
+				<td><input type="text" id="name" name="name"></td>
+			</tr>
+			<tr>
+				<td>Phone Number <font color="red">*</font></td>
+				<td><input type="text" id="phone_number" name="phone_number"></td>
+			</tr>
+			<tr>
+				<td>E-Mail <font color="red">*</font></td>
+				<td><input type="text" id="e_mail" name="e_mail"></td>
+			</tr>
+			<tr>
+				<td>Password <font color="red">*</font></td>
+				<td><input type="password" id="pass1" name="password" required /></td>
+			</tr>
+			<tr>
+				<td>Confirm Password <font color="red">*</font></td>
+				<td><input type="password" id="pass2" name="password" required /></td>
+			</tr>
+			<tr>
+				<td align="center" ><input type="submit" name="submit" value="CustomerRegister"></td>
+				<td></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
