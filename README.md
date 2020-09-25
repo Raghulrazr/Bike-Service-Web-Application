@@ -3,8 +3,11 @@ This application is for owners of Bike service stations. It helps the owners to 
 
 ## Table of contents
 * [General info](#general-info)
-* [Code Details](#code-details)
-* [Screenshot](#screenshot)
+* [HTML Code Details](#HTML Code Details)
+* [JSP Code Details](#JSP Code Details)
+* [Servlet Code Details](#Servlet Code Details)
+* [Image in page](#Image in page)
+* [Screenshots](#screenshots)
 * [Database](#database)
 * [Contact](#contact)
 
@@ -106,7 +109,8 @@ They can view their booked list. and also can chage the status of booking. And t
 /Bike service web/WebContent/slogan.jpg
 
 ## Screenshots
-StudentClassroom/screen.pdf
+/Bike service web/screenshot.pdf 
+The Image of each pages available.
 
 ## Database
 
