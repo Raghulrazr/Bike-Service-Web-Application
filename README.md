@@ -4,8 +4,8 @@ This application is for owners of Bike service stations. It helps the owners to 
 ## Table of contents
 * [General info](#general-info)
 * [HTML Code Details](#html-code-details)
-* [JSP Code Details](#jsp-code-etails)
-* [Servlet Code Details](#servlet-code-etails)
+* [JSP Code Details](#jsp-code-details)
+* [Servlet Code Details](#servlet-code-details)
 * [Image in page](#image-in-page)
 * [Screenshots](#screenshots)
 * [Database](#database)
