@@ -3,7 +3,7 @@ This application is for owners of Bike service stations. It helps the owners to 
 
 ## Table of contents
 * [General info](#general-info)
-* [HTML Code Details](#HTML Code Details)
+* [HTML Code Details](#html-code-details)
 * [JSP Code Details](#JSP Code Details)
 * [Servlet Code Details](#Servlet Code Details)
 * [Image in page](#Image in page)
