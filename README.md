@@ -9,6 +9,7 @@ This application is for owners of Bike service stations. It helps the owners to 
 * [Image in page](#image-in-page)
 * [Screenshots](#screenshots)
 * [Database](#database)
+* [Database Schema](#databaseschema)
 * [Contact](#contact)
 
 ## General info
@@ -117,6 +118,12 @@ They can view their booked list. and also can chage the status of booking. And t
 ## Screenshots
 /Bike service web/screenshot.pdf 
 The Image of each pages available.
+
+## Database Schema
+
+/Bike service web/Database Schema.mwb 
+
+provides the database schema of project.
 
 ## Database
 
