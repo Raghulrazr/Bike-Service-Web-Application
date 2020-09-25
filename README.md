@@ -10,6 +10,7 @@ This application is for owners of Bike service stations. It helps the owners to 
 * [Screenshots](#screenshots)
 * [Database](#database)
 * [Database Schema](#databaseschema)
+* [SAMPLE DATA](#sampledata)
 * [Contact](#contact)
 
 ## General info
@@ -128,6 +129,16 @@ provides the database schema of project.
 ## Database
 
 Here MySQL Server version: 8.0.20 is used. Because the use of the MySQL database server that utilize low-cost commodity hardware, can achieve amazing levels of scalability and performance, all at a cost that is far less. MySQL offers exceptional quick-start capability with the average time from software download to installation completion being less than fifteen minutes. open source nature of MySQL allows complete customization to add unique requirements to the database server.
+
+## SAMPLE DATA
+Customer Login:
+E-Mail: raghulsenthil6@gmail.com
+Password: 1234
+Owner Login:
+E-Mail: raghulsenthil6@gmail.com
+Password: 1234
+
+
 
 ## Contact
 Mail To - raghulsenthil6@gmail.com
